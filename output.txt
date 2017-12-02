@@ -1,0 +1,47 @@
+[==========] Running 17 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from time_case
+[ RUN      ] time_case.Deque_rand
+[       OK ] time_case.Deque_rand (61 ms)
+[ RUN      ] time_case.std_deque_rand
+[       OK ] time_case.std_deque_rand (36 ms)
+[ RUN      ] time_case.Deque_sort
+[       OK ] time_case.Deque_sort (988 ms)
+[ RUN      ] time_case.std_deque_sort
+[       OK ] time_case.std_deque_sort (498 ms)
+[ RUN      ] time_case.input100
+[       OK ] time_case.input100 (0 ms)
+[ RUN      ] time_case.input1000
+[       OK ] time_case.input1000 (0 ms)
+[ RUN      ] time_case.input10000
+[       OK ] time_case.input10000 (0 ms)
+[ RUN      ] time_case.input100000
+[       OK ] time_case.input100000 (7 ms)
+[ RUN      ] time_case.input1000000
+[       OK ] time_case.input1000000 (59 ms)
+[ RUN      ] time_case.input10000000
+[       OK ] time_case.input10000000 (568 ms)
+[ RUN      ] time_case.input100000000
+[       OK ] time_case.input100000000 (6806 ms)
+[ RUN      ] time_case.std_input100000000
+[       OK ] time_case.std_input100000000 (2499 ms)
+[----------] 12 tests from time_case (11522 ms total)
+
+[----------] 5 tests from data_case
+[ RUN      ] data_case.input10000
+[       OK ] data_case.input10000 (1705 ms)
+[ RUN      ] data_case.input1000
+[       OK ] data_case.input1000 (17 ms)
+[ RUN      ] data_case.rand1
+[       OK ] data_case.rand1 (1727 ms)
+[ RUN      ] data_case.rand2
+[       OK ] data_case.rand2 (1741 ms)
+[ RUN      ] data_case.rand3
+[       OK ] data_case.rand3 (1713 ms)
+[----------] 5 tests from data_case (6903 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 2 test cases ran. (18425 ms total)
+[  PASSED  ] 17 tests.
+
+Process finished with exit code 0
