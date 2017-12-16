@@ -52,6 +52,7 @@ namespace Utility {
             _realSize = other._realSize;
             _data = new T[_realSize];
             memcpy(_data, other._data, _realSize * sizeof (T));
+	    return *this;
         }
 
         ~Deque() { delete [] _data; }
