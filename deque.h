@@ -42,7 +42,7 @@ namespace Utility {
         }
 
         Deque() : _begin(0), _size(0), _realSize(minSize), _data(new T[_realSize]) {}
-        Deque(const Deque &other) : _begin(other._begin), _size(other._size), _realSize(other._realSize), _data(new T[_realSize]) { memcpy(_data, other._data, _realSize * sizeof (T)); }
+        Deque(const Deque &other) : _begin(other._begin), _size(other._size), _realSize(other._realSize), _data(new T[_realSize]) { std::copy(other._data, other._data + _realSize, _data; }
 
         Deque &operator=(const Deque &other)
         {
