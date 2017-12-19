@@ -51,7 +51,7 @@ namespace Utility {
             _size = other._size;
             _realSize = other._realSize;
             _data = new T[_realSize];
-            memcpy(_data, other._data, _realSize * sizeof (T));
+            std::copy(other._data, other._data + _realSize, _data);
 	    return *this;
         }
 
